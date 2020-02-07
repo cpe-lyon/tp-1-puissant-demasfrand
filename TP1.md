@@ -69,26 +69,28 @@ La commande ***time*** permet de calculer le temps necessaire a l'execution d'un
 
 ***10.*** La commande file permet de déterminer le type d'un fichier.
 
-***11.*** Création du fichier tott et insertion de "Hello toto" : "touch" puis on va insérer la chaine avec : echo "Hello toto" > toto.
+***11.*** Création du fichier toto et insertion de "Hello toto" : "touch" puis on va insérer la chaine avec : echo "Hello toto" > toto.
 
-	Creation du lien "titi" vers "toto" : "ln toto titi".
+Creation du lien "titi" vers "toto" : "ln toto titi".
 
-	Si on modifie le fichier toto, le fichier titi est aussi modifié.
+Si on modifie le fichier toto, le fichier titi est aussi modifié.
 
-	Si on supprime toto, le fichier titi n'est pas supprimé.
+Si on supprime toto, le fichier titi n'est pas supprimé.
 
 ***12.*** Création d'un lien symbolique : "ln - s titi tutu".
 
-	Si on modifie titi, le fichier tutu est aussi modifié. De même, si on modifie tutu alors titi est modifié.
+Si on modifie titi, le fichier tutu est aussi modifié. De même, si on modifie tutu alors titi est modifié.
 
-	Si on supprimme titi alors le fichier tutu n'est pas supprimé mais son contenu est vide
+Si on supprimme titi alors le fichier tutu n'est pas supprimé mais son contenu est vide
 
 
 ***13.*** ctrl+s permet d'arreter le defilement et ctrl+q permet de le reprendre
 
-***14.*** Affichier 5 premières lignes d'un fichier : "head -5 nomDuFichier"
-	  Afficher les 15 dernières :"tail -15 nomDuFichier"
-	  Afficher les lignes 10 à 20:"sed -n '10,20p' nomDuFichier".
+***14.*** Affichier 5 premières lignes d'un fichier : "head -5 nomDuFichier.
+
+Afficher les 15 dernières :"tail -15 nomDuFichier"
+	  
+Afficher les lignes 10 à 20:"sed -n '10,20p' nomDuFichier".
 
 ***15.*** "dmesg | less" affiche la mémoire tampon de message du noyau accoupler à | less qui permet d'afficher un fichier page par page.
 
